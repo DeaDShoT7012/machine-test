@@ -1,0 +1,9 @@
+textarea{
+    width: 300px;
+    background: white;
+    border-radius: 6px;
+    color: black;
+}
+label{
+    color: orange;
+}

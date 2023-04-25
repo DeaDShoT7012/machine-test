@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    padding: 8px;
+}
+input{
+    height: 35px;
+    width:300px;
+    border-radius: 6px;
+    background: white;
+    border: none;
+    color: black;
+}
