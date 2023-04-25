@@ -1,8 +1,7 @@
 import './App.css';
 import { Route,Routes } from 'react-router-dom';
-import Add from './components/Add';
+import Admin from './components/Admin';
 import Login from './components/Login';
-import Adduser from './components/Adduser';
 import Register from './components/Register';
 import User from './components/User';
 
@@ -13,8 +12,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path='' element={<Login/>}/>
-        <Route path='add' element={<Add/>} />
-        <Route path='adduser' element={<Adduser/>}/>
+        <Route path='admin' element={<Admin/>} />
         <Route path='register' element={<Register/>}/>
         <Route path='user' element={<User/>}/>
       </Routes>

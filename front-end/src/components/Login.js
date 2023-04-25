@@ -24,7 +24,7 @@ function Login() {
         alert(result.data.message)
         location('user')
         if(email=='admin@gmail.com'){
-            location('add')
+            location('admin')
         }
     }
 
